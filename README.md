@@ -13,7 +13,7 @@ https://go.microsoft.com/fwlink/?LinkId=691126
 下载安装https://slproweb.com/products/Win32OpenSSL.html
 将安装后目录的include下的openssl目录复制到python的include目录下
 将安装后目录中lib下的libcrypto.lib和libssl.lib复制到python的libs目录下
-在安装mysqlclient时会出现报错，解决方法如下:
+在安装mysqlclient时会出现报错,解决方法如下:
 https://blog.csdn.net/alvechen/article/details/95040255
 ```
 ### 数据库初始化
@@ -21,8 +21,8 @@ https://blog.csdn.net/alvechen/article/details/95040255
 数据库创建一个fast库,编码格式utf8mb4
 数据库更新使用alembic
 alembic init alembic
-修改alembic的ini文件，将链接地址改为正确的
-修改alembic env文件，添加如下内容
+修改alembic的ini文件,将链接地址改为正确的
+修改alembic env文件,添加如下内容
 import os
 import sys
 # 把当前项目路径加入到path中
