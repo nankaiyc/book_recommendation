@@ -6,7 +6,7 @@
 ## 项目初始化
 ```shell script
 pip install -r requirements.txt -i  https://pypi.tuna.tsinghua.edu.cn/simple
-windows下可能需要安装如下软件：
+windows下可能需要安装如下软件:
 Micorosoft visio c++
 https://go.microsoft.com/fwlink/?LinkId=691126
 安装cryptography openssl报错:
